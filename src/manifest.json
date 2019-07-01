@@ -1,6 +1,6 @@
 {
-  "name": "Online Chinese Handwriting Input | 網上中文手寫輸入法",
-  "short_name": "Online Chinese Handwriting Input",
+  "name": "Chinese Handwriting Recognition",
+  "short_name": "Chinese Handwriting Recognition",
   "description": "Chinese Handwriting Recognition using Google IME API",
   "start_url": "./",
   "display": "standalone",
