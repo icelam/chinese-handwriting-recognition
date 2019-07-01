@@ -7,7 +7,7 @@ Experiment of Chinese handwriting recognition using Google IME API which is not 
 ### API endpoint ###
 ```https://inputtools.google.com/request?ime=handwriting```
 
-### Minimum data to form a payload (as of 2019-07-01)###
+### Minimum data to form a payload (as of 2019-07-01) ###
 ```
 {
   "options": "enable_pre_space",
