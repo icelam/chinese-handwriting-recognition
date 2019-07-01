@@ -1,0 +1,27 @@
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-grey16: #282828;
+$color-grey27: #444444;
+$color-grey60: #999999;
+$color-grey86: #dddddd;
+$color-grey96: #f5f5f5;
+
+// body
+$color-body-background:  $color-grey96;
+$color-text: $color-grey27;
+
+// paper
+$color-paper-bg: $color-white;
+$color-paper-border: $color-grey86;
+$color-paper-grid: $color-grey96;
+
+// button
+$color-button-text: $color-white;
+$color-button-bg: $color-grey27;
+$color-button-bg-hover: $color-grey16;
+
+// input
+$color-input-text: $color-text;
+$color-input-bg: $color-white;
+$color-input-placeholder: $color-grey60;

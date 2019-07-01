@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW" lang="zh-TW">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta name="description" content="Chinese handwriting recognition experiment using Google IME API" />
+    <meta name="keywords" content="Chinese handwriting input, Chinese handwriting method, online Chinese handwriting input, online Chinese handwriting method, Input Chinese handwriting recognition, online Chinese handwriting recognition, text recognition, handwriting recognition, online handwriting recognition, 中文手寫輸入法, 網上中文手寫輸入法, 中文手寫板, 網上中文手寫板, 手寫板, 網上手寫板" />
+    <meta name="robots" content="index" />
+    <meta name="title" content="Online Chinese Handwriting Input | 網上中文手寫輸入法" />
+    <meta property="og:description" content="Chinese handwriting recognition experiment using Google IME API" />
+    <meta property="og:title" content="Online Chinese Handwriting Input | 網上中文手寫輸入法" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pinkylam.me/playground/chinese-handwriting-recognition/" />
+    <meta property="og:image" content="http://pinkylam.me/playground/chinese-handwriting-recognition/assets/images/og/og-image.png" />
+    <meta property="og:image:secure_url" content="https://pinkylam.me/playground/chinese-handwriting-recognition/assets/images/og/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Chinese handwriting recognition experiment using Google IME API" />
+    <meta property="og:site_name" content="pinkylam.me" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="canonical" href="https://pinkylam.me/playground/chinese-handwriting-recognition/" />
+
+    <!-- Web App Tags: For add to home screen -->
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/touch-icons/apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/touch-icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/touch-icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/touch-icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/touch-icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/touch-icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/touch-icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/touch-icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" href="assets/images/touch-icons/apple-touch-icon-57x57.png" />
+    <!-- Web App Tags -->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!-- Favicons -->
+
+    <title>Chinese handwriting recognition experiment using Google IME API</title>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-54B6D4G');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54B6D4G"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="container">
+      <h1 class="page-title">Chinese handwriting recognition experiment using Google IME API</h1>
+      <!-- Handwriting Area -->
+      <div class="paper">
+        <canvas class="js-paper-canvas paper__canvas" width="280" height="280"></canvas>
+      </div>
+      <!-- /Handwriting Area -->
+      <div class="text--center">
+        <button class="js-canvas-submit button"><i class="fas fa-search"></i> Recognize</button>
+        <button class="js-canvas-clear button"><i class="fas fa-undo-alt"></i> Clear</button>
+      </div>
+
+      <textarea class="js-result-area result" placeholder="Result will be displayed here" readonly rows="2"></textarea>
+    </div>
+  </body>
+</html>
