@@ -1,13 +1,13 @@
 # Chinese handwriting recognition experiment using Google IME API #
-:warning: **This project is developed for fun. Please do not use this your production environment as Google IME API is not open for public use, and may change at anytime**
+:warning: **This project is developed for fun. Please do not use this in  your production environment as Google IME API is not open for public use, and may change at anytime.**
 
 ### Description ###
-Experiment of Chinese handwriting recognition using Google IME API which is not officially released for public use. The API endpoint can be found in Google Translate.
+Experiment of Chinese handwriting recognition using Google IME API which is not officially released for public use. The API endpoint can be found in [Google Translate](https://translate.google.com).
 
 ### API endpoint ###
 ```https://inputtools.google.com/request?ime=handwriting```
 
-### Minimum data to form a payload (as of 2019-07-01) ###
+### Minimum data to form a valid payload (as of 2019-07-01) ###
 ```
 {
   "options": "enable_pre_space",
