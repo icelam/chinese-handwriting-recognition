@@ -1,8 +1,8 @@
 # Chinese handwriting recognition experiment using Google IME API #
-:warning: **This project is developed for fun. Please do not use this in  your production environment as Google IME API is not open for public use, and may change at anytime.**
+:warning: **This project is developed for fun. Please avoid using Google IME API in your production environment as it is not open for public use, and may change at anytime.**
 
 ### Description ###
-Experiment of Chinese handwriting recognition using Google IME API which is not officially released for public use. The API endpoint can be found in [Google Translate](https://translate.google.com).
+Experiment of Chinese handwriting recognition using Google IME API which is not released for public use. The API endpoint can be found in [Google Translate](https://translate.google.com).
 
 ### API endpoint ###
 ```https://inputtools.google.com/request?ime=handwriting```
