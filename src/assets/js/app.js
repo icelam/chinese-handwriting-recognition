@@ -1,10 +1,10 @@
-import HandwritingCanvas from '@js/handwriting';
+import handwritingCanvas from '@js/handwriting';
 import recognizeHandwriting from '@js/recognize';
 
 const resultAreaElem = document.querySelector('.js-result-area');
 
 /* Input Canvas init */
-const InputHandwrite = new HandwritingCanvas('.js-paper-canvas');
+const InputHandwrite = handwritingCanvas('.js-paper-canvas');
 InputHandwrite.init();
 
 /* Clear Canvas */

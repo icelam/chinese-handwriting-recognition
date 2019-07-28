@@ -1,4 +1,4 @@
-const HandwritingCanvas = (canvasSelector, lineWidthOption = 3, lineJoinOption = 'round', lineCapOption = 'round', strokeStyleOption = '#000000') => {
+const handwritingCanvas = (canvasSelector, lineWidthOption = 3, lineJoinOption = 'round', lineCapOption = 'round', strokeStyleOption = '#000000') => {
   const canvas = canvasSelector ? document.querySelector(canvasSelector) : null;
   let ctx;
   let canvasWidth;
@@ -234,4 +234,4 @@ const HandwritingCanvas = (canvasSelector, lineWidthOption = 3, lineJoinOption =
   };
 };
 
-export default HandwritingCanvas;
+export default handwritingCanvas;
