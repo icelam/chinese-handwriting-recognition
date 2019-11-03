@@ -43,7 +43,7 @@ module.exports = merge(baseWebpackConfig, {
       {
         test: /\.s?css$/i,
         use: [
-          'style-loader?sourceMap=true',
+          'style-loader',
           'css-loader?sourceMap=true',
           {
             loader: 'postcss-loader',
